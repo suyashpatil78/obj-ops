@@ -1,0 +1,33 @@
+name: Unit Tests
+on:
+    push:
+        branches: [main]
+    pull_request:
+        types: [opened, synchronize, edited]
+
+jobs:
+    build:
+        permissions: write-all
+        runs-on: ubuntu-latest
+        strategy:
+            matrix:
+                node-version: [16.x]
+        steps:
+          - name: Checkout Git Repository
+            uses: actions/checkout@v2
+        
+          - name: Setup Node.js
+            uses: actions/setup-node@v1
+            with:
+                node-version: 16
+        
+          - name: Install Dependencies
+            run: npm install --save-dev
+
+          - name: Run Tests
+            run: npm test -- --coverage --collectCoverageFrom="./utils/**"
+
+          - name: Unit Test Coverage
+            uses: ArtiomTr/jest-coverage-report-action@v2
+            with:
+                title: Unit Test Coverage
