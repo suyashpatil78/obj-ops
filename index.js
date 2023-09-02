@@ -1,4 +1,4 @@
-const deepClone = require('../tanglejs/utils/deep-clone.js');
+const deepClone = require('../obj-ops/utils/deep-clone.js');
 
 module.exports = {
     deepClone,
