@@ -1,5 +1,5 @@
 {
-  "name": "tanglejs",
+  "name": "obj-ops",
   "version": "1.0.0",
   "description": "A library that deals with javascript objects",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/suyashpatil78/tanglejs.git"
+    "url": "git+ssh://git@github.com/suyashpatil78/obj-ops.git"
   },
   "keywords": [
     "object"
@@ -16,9 +16,9 @@
   "author": "suyashpatil78",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/suyashpatil78/tanglejs/issues"
+    "url": "https://github.com/suyashpatil78/obj-ops/issues"
   },
-  "homepage": "https://github.com/suyashpatil78/tanglejs#readme",
+  "homepage": "https://github.com/suyashpatil78/obj-ops#readme",
   "devDependencies": {
     "jest": "^29.6.4"
   }
