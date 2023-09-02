@@ -1,0 +1,25 @@
+{
+  "name": "tanglejs",
+  "version": "1.0.0",
+  "description": "A library that deals with javascript objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/suyashpatil78/tanglejs.git"
+  },
+  "keywords": [
+    "object"
+  ],
+  "author": "suyashpatil78",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suyashpatil78/tanglejs/issues"
+  },
+  "homepage": "https://github.com/suyashpatil78/tanglejs#readme",
+  "devDependencies": {
+    "jest": "^29.6.4"
+  }
+}
