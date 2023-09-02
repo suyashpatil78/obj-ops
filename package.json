@@ -1,6 +1,6 @@
 {
   "name": "obj-ops",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "A library that deals with javascript objects",
   "main": "index.js",
   "scripts": {
